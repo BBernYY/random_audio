@@ -16,7 +16,7 @@
       function setsound(url){
         document.getElementById('song').src=url;
         interval = (document.getElementById('interval').value)
-        setInterval(play, interval*1000); // run the code every 30-60 seconds
+        setInterval(play, interval.toString()*1000); // run the code every 30-60 seconds
         song.play()
       }
       // Get a reference to the audio element
