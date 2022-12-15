@@ -9,9 +9,6 @@ html {
     --fontsize: 15px;
     
 }
-input {
-    width: 100%;
-}
 button {
     font-weight: bold;
 }
@@ -27,4 +24,10 @@ body {
 html, body {
     margin: 0;
     height: 100%;
+}
+input {
+    width: 20px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
 }
