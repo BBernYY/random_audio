@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>dfuigsdfjkg</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="templates.css">
+  </head>
+  <body>
+    <textarea name="text" id="text" cols="50" rows="10"></textarea>
+    <br>
+    <button onclick="setsound(document.getElementById('text').value)" class="button">Load</button>
+    <audio id="song" src=""></audio>
+    <script>
+      var song = document.getElementById("song");
+      function setsound(url){
+        document.getElementById('song').src=url;
+        song.play()
+      }
+      // Get a reference to the audio element
+      var interval = 30000 + Math.random() * 30000;
+      function play(){
+        song.play()
+      }
+      setInterval(play, interval); // run the code every 30-60 seconds
+      // Start playing the audio when the page loads
+    </script>
+  </body>
+</html>

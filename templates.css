@@ -51,7 +51,7 @@ h1 {
     font-family: var(--fonttype);
     display:inline-block;
 }
-input {
+input, textarea {
     border: none;
     background-color: var(--buttoncolor);
     color: var(--color);

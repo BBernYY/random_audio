@@ -9,3 +9,22 @@ html {
     --fontsize: 15px;
     
 }
+input {
+    width: 100%;
+}
+button {
+    font-weight: bold;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
